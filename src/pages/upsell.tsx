@@ -30,7 +30,7 @@ export default function Upsell() {
         {/* Imagem (substitua quando quiser) */}
         <div className="flex justify-center mb-10">
           <img
-            src="/public/upsell.png"
+            src="/upsell.png"
             alt="Oferta Especial"
             className="w-[500px] md:w-[657px] rounded-2xl shadow-xl"
           />

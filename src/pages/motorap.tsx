@@ -8,7 +8,7 @@ export default function MotorAP() {
       <section className="w-full bg-[url('https://via.placeholder.com/1600x900')] bg-cover bg-center text-white py-24 px-4">
         <div className="max-w-4xl mx-auto text-center drop-shadow-xl">
           <img
-            src="/public/ebook_celular.png"
+            src="/ebook_celular.png"
             alt="Mockup do ebook"
             className="w-[260px] md:w-[320px] mx-auto mb-6 drop-shadow-xl"
           />
@@ -50,7 +50,7 @@ export default function MotorAP() {
           <div className="mt-6 flex justify-center">
             <video
               className="w-[240px] h-auto rounded-2xl shadow-lg border border-black/10"
-              src="public/ebook.MOV"
+              src="/ebook.MOV"
               autoPlay
               loop
               muted
@@ -124,7 +124,7 @@ export default function MotorAP() {
             {/* Imagem ilustrativa do Motor AP */}
           <div className="mt-10 flex justify-center">
             <img
-              src="/public/motor_ap2.jpg"
+              src="/motor_ap2.jpg"
               alt="Motor AP 2"
               className="w-[360px] md:w-[420px] rounded-2xl shadow-xl border border-black/10"
             />
@@ -155,11 +155,11 @@ export default function MotorAP() {
 
         <div className="grid md:grid-cols-3 gap-10">
           {[
-            ["1. Consumo Alto", "Motor desregulado faz seu carro beber muito mais do que deveria.", "/public/Consumo.jpg"],
-            ["2. Falhas e Engasgos", "Carro trepidando, falhando ou morrendo no ponto? Fique atento.", "/public/falha_ignicao.png"],
-            ["3. Superaquecimento", "Problema sério que pode destruir seu motor em minutos.", "/public/Aquecimento.jpg"],
-            ["4. Vazamentos", "Óleo ou combustível pingando? Isso nunca é normal.", "/public/Fumaca.jpg"],
-            ["5. Barulhos Estranhos", "Tec-tec, assobios, batidas — todos os ruídos têm um motivo.", "/public/Barulho.jpg"]
+            ["1. Consumo Alto", "Motor desregulado faz seu carro beber muito mais do que deveria.", "/Consumo.jpg"],
+            ["2. Falhas e Engasgos", "Carro trepidando, falhando ou morrendo no ponto? Fique atento.", "/falha_ignicao.png"],
+            ["3. Superaquecimento", "Problema sério que pode destruir seu motor em minutos.", "/Aquecimento.jpg"],
+            ["4. Vazamentos", "Óleo ou combustível pingando? Isso nunca é normal.", "/Fumaca.jpg"],
+            ["5. Barulhos Estranhos", "Tec-tec, assobios, batidas — todos os ruídos têm um motivo.", "/Barulho.jpg"]
           ].map(([title, desc, img], i) => (
             <div
               key={i}
@@ -195,7 +195,7 @@ export default function MotorAP() {
           {/* Imagem ilustrativa do Motor AP */}
           <div className="mt-10 flex justify-center">
             <img
-              src="/public/motor_ap1.jpg"   
+              src="/motor_ap1.jpg"   
               alt="Motor AP 1"
               className="w-[360px] md:w-[420px] rounded-2xl shadow-xl border border-black/10"
             />
@@ -243,7 +243,7 @@ export default function MotorAP() {
           {/* Imagem ilustrativa (média) */}
           <div className="flex justify-center mb-12">
           <img
-            src="/public/garagem.jpg"   // substitua pelo nome da imagem
+            src="/garagem.jpg"   // substitua pelo nome da imagem
             alt="Motor AP"
             className="w-[400px] md:w-[492px] rounded-2xl drop-shadow-2xl"
           />
@@ -279,7 +279,7 @@ export default function MotorAP() {
           {/* Imagem do ebook sem fundo — tamanho médio/grande */}
           <div className="flex justify-center mb-12">
           <img
-            src="/public/ebook_celular_2.png"
+            src="/ebook_celular_2.png"
             alt="Ebook Motores AP"
             className="w-[240px] md:w-[300px] rounded-2xl drop-shadow-2xl"
           />
