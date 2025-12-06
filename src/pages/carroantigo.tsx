@@ -37,13 +37,13 @@ export default function CarroAntigo() {
       <section className="w-full bg-black text-white py-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-            Motores AP<br />
-            <span className="text-yellow-400">Conservação e Manutenção Descomplicada</span>
+            Carro Antigo<br />
+            <span className="text-yellow-400">Realize seu Sonho Agora</span>
           </h1>
 
           <p className="mt-6 text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
-            Aprenda a cuidar do seu motor AP com instruções simples, detalhadas e acessíveis até para iniciantes.
-            O guia definitivo para quem quer economizar, preservar o carro e evitar dores de cabeça.
+            Aprenda a avaliar o seu próximo carro antigo com instruções simples, detalhadas e acessíveis até para iniciantes.
+            O guia definitivo para quem quer comprar o seu carro antigo, sem cair em pegadinhas.
           </p>
 
           {/* Vídeo demonstrativo do ebook */}
@@ -79,10 +79,10 @@ export default function CarroAntigo() {
 
           <div className="grid md:grid-cols-2 gap-12">
             {[
-              ["🔍  Encontrar bons anúncios", "Como identificar anúncios confiáveis e evitar ciladas comuns."],
-              ["🛠️  Avalar o Carro na prática", "Parte externa, interior, mecânica, cofre do motor e pontos de desgaste."],
-              ["🛣️  O que observar no Test Drive", "Suspensão, câmbio, desempenho, freios e ruídos suspeitos."],
-              ["📄  Negociação e Documentação", "Como negociar, pagar com segurança e conferir toda documentação."]
+              ["🔍 Encontrar bons anúncios", "Como identificar anúncios confiáveis e evitar ciladas comuns."],
+              ["🛠 ️Avaliar o Carro na prática", "Parte externa, interior, mecânica, cofre do motor e pontos de desgaste."],
+              ["🛣 ️O que observar no Test Drive", "Suspensão, câmbio, desempenho, freios e ruídos suspeitos."],
+              ["📄 Negociação e Documentação", "Como negociar, pagar com segurança e conferir toda documentação."]
             ].map(([title, desc], i) => (
               <div key={i} className="border p-6 rounded-2xl shadow bg-white">
                 <h3 className="text-xl font-bold mb-4">{title}</h3>
